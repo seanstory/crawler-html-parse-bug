@@ -1,0 +1,6 @@
+#! /bin/bash
+
+rm -rf vendor/
+rm Jars.lock 
+./vendor_jars 
+./test.rb 
