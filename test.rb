@@ -1,10 +1,6 @@
 #!/usr/bin/env jruby
 
-begin
-  require 'bson'
-rescue => e
-  # no op
-end  
+require 'bson'
 require 'nokogiri'
 html = <<-HTML
 <body>
