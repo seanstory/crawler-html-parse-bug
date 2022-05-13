@@ -2,13 +2,9 @@ GEM
   remote: https://rubygems.org/
   specs:
     bson (4.15.0-java)
-    json (2.3.1-java)
     nokogiri (1.13.6-java)
       racc (~> 1.4)
     racc (1.6.0-java)
-    ruby-maven (3.3.13)
-      ruby-maven-libs (~> 3.3.9)
-    ruby-maven-libs (3.3.9)
 
 PLATFORMS
   universal-java-11
@@ -16,9 +12,7 @@ PLATFORMS
 DEPENDENCIES
   bson (= 4.15.0)
   bundler (= 2.2.33)
-  json (~> 2.3.1)
   nokogiri (>= 1.13.6)
-  ruby-maven
 
 BUNDLED WITH
    2.2.33
