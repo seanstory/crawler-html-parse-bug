@@ -1,4 +1,4 @@
-# Reproducing odd Nokogiri bug
+# Reproducing odd Nokogiri bug (https://github.com/sparklemotion/nokogiri/issues/2550)
 
 To reproduce the bug, run
 
